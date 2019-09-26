@@ -1,0 +1,37 @@
+ProjectTitle: Race
+
+PageList:
+  - file: homepage.html
+    ready: 100
+  - file: services.html
+    ready: 90
+  - file: services-article.html
+    ready: 90
+  - file: production.html
+    ready: 90
+  - file: production-article.html
+    ready: 90
+  - file: solutions.html
+    ready: 90
+  - file: solutions-article.html
+    ready: 90
+  - file: about.html
+    ready: 90
+  - file: history.html
+    ready: 90
+  - file: infrastructure.html
+    ready: 90
+  - file: clients.html
+    ready: 90
+  - file: certificates.html
+    ready: 90
+  - file: vacancies.html
+    ready: 90
+  - file: news.html
+    ready: 90
+  - file: news-archieve.html
+    ready: 90
+  - file: news-article.html
+    ready: 90
+  - file: contacts.html
+    ready: 90
