@@ -3,7 +3,7 @@
   <head>
     <!-- MADE WITH LOVE BY <> KHMELEVSKOY & ASSOCIATES </> www.khmelevskoy.co-->
     <meta charset="utf-8">
-    <title>Услуги страница</title>
+    <title>Поиск</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="theme-color" content="#fff">
@@ -235,113 +235,44 @@
         <div class="page__content">
           <!-- header modifier class-->
           <div js-header-class data-class="is-black"></div>
-          <!-- CONTENT-->
           <div class="content">
-            <div class="bc-container">
-                        <!-- BREADCRUMBS-->
-                        <div class="breadcrumbs">
-                          <ul class="breadcrumbs__list">
-                            <li><a href="#">Главная</a>
-                            </li>
-                            <li><a href="#">Услуги</a>
-                            </li>
-                            <li><span>Техническая поддержка</span>
-                            </li>
-                          </ul>
-                        </div>
-            </div>
-            <!-- article-->
-            <article class="article">
-              <h1 class="h1-title article__title" data-aos="fade-up">Техническая поддержка</h1>
-              <div class="article__wrapper">
-                <!-- article content-->
-                <div class="article__content">
-                  <!-- caption-->
-                  <p class="p-big" data-aos="fade-up">Группа компаний Race предлагает клиентам широкий спектр услуг по предоставлению круглосуточной технической поддержки наземных и спутниковых сетей передачи данных, а также по ремонту и замене оборудования различных производителей.</p>
-                  <div class="mt-3 mb-2" js-stick-to-window data-position="left" data-stop="&lt;577" data-section-color="is-section-dark">
-                    <picture class="img-w100" js-lazy alt="" data-src="img/articleImage_1.jpg">
-                      <data-src media="(min-width: 1279px)" srcset="img/articleImage_1.jpg 1x, img/articleImage_1@2x.jpg 2x"></data-src>
-                      <data-src media="(min-width: 0px)" srcset="img/articleImage_1_Mobile.jpg 1x, img/articleImage_1_Mobile@2x.jpg 2x"></data-src>
-                    </picture>
-                  </div>
-                  <div class="wysiwyg" data-aos="fade-up" data-section-color="is-section-white">
-                    <ol class="ol-list ol-list--bordered">
-                      <li>Техническая поддержка по телефону, факсу или электронной почте в стандартные бизнес-часы или круглосуточно; консультации по подключению, настройке и обслуживанию оборудования.</li>
-                      <li>Платный выезд сервисного инженера на объект заказчика без заключения договора о предоставлении сервисного обслуживания.</li>
-                      <li>Гарантийный ремонт оборудования в течение 10 недель.</li>
-                      <li>Выезд сервисного инженера на объект заказчика.</li>
-                      <li>Различные варианты замены оборудования, включая срочную опережающую замену в течение 4-х часов вне зависимости от дня недели и времени суток.</li>
-                      <li>Доставка неисправного оборудования в сервисный центр группы компаний Race.</li>
-                      <li>Доставка оборудования после ремонта или замены на объект заказчика.</li>
-                      <li>Платный однократный ремонт оборудования по окончании гарантийного срока.</li>
-                      <li>Платная разовая инспекция оборудования на объекте заказчика.</li>
-                    </ol>
-                    <figure><img js-lazy data-src="img/articleImage_2.jpg" data-srcset="img/articleImage_2@2x.jpg 2x"></figure>
-                    <p>Для получения услуг технической поддержки клиенту необходимо заключить договор о предоставлении сервисного обслуживания, в котором оговаривается тип и количество оборудования, описание предоставляемых услуг и время обслуживания. Возможна постановка на поддержку оборудования, приобретенного у других поставщиков.</p>
-                    <p>При наличии у клиента Договора о предоставлении сервисного обслуживания обращение в службу технической поддержки осуществляется по специально выделенному телефоному номеру. Данный номер круглосуточно обслуживается оператором службы технической поддержки группы компаний Race, регистрирующим поступающие заявки и эскалирующим проблемы в службе технической поддержки. Запрос на техническую поддержку также может быть оправлен на специальный адрес электронной почты, где он немедленно по поступлении будет принят и зарегистрирован оператором.</p>
-                    <p>При отсутствии Договора о предоставлении сервисного обслуживания клиент может получить послепродажную поддержку в форме консультаций по телефону или по электронной почте в стандартные бизнес-часы.</p>
-                    <p>Если проблема не может быть решена силами инженеров группы компаний Race в заданные в соответствии с приоритетом временные рамки, заявка передается в службы технической поддержки соответствующих производителей оборудования, где регистрируется в соответствии с правилами, принятыми данным производителем. Заявка может быть передана в службы технической поддержки производителей непосредственно после регистрации, если проблема очевидно не может быть решена силами инженеров группы компаний Race.</p>
-                    <p>Одним из новых направлений технической поддержки является поддержка пользователей спутникового доступа в Интернет StarBlazer. Инженеры службы поддержки своевременно отслеживают появление новых обращений пользователей услуги и отвечают на вопросы через отдельный интерфейс поддержки пользователей услуги или на форумах StarBlazer</p>
-                  </div>
+            <!-- search page-->
+            <div class="search-page">
+              <h1 class="h1-title" data-aos="fade-up">Результаты поиска</h1>
+              <form action="#">
+                <div class="search-page__field" data-aos="fade-up">
+                  <input type="text" placeholder="Продукция race">
+                  <input class="btn" type="submit" value="">
                 </div>
-                <!-- sidebar-->
-                          <div class="article__sidebar sidebar" data-aos="fade" data-aos-delay="500">
-                            <div class="sidebar__wrapper" js-sticky data-offset-top="100">
-                              <div class="sidebar__menu">
-                                <li><a href="#">Подключение к спутниковым сетям</a></li>
-                                <li><a href="#">Поставка оборудования и программного обеспечения</a></li>
-                                <li><a href="#">Разработка и внедрение ПО</a></li>
-                                <li class="is-active"><a href="#">Техническая поддержка</a></li>
-                                <li><a href="#">Аренда оборудования</a></li>
-                                <li><a href="#">Консалтинг в сфере ИТ и телеком</a></li>
-                              </div>
-                            </div>
-                          </div>
-              </div>
-            </article>
-          </div>
-          <!-- REQUEST FORM-->
-          <div class="reqform" data-section-color="is-section-dark"><a class="btn btn--modal" href="#modal-application" js-popup>Оставить заявку</a>
-            <div class="reqform__background" js-parallax-scale-background data-scale-power="2"><img src="img/regFormBackground.jpg" srcset="img/regFormBackground@2x.jpg 2x"></div>
-            <div class="reqform__content">
-              <div class="container">
-                <form action="ajax-endpoint.php" js-validate-form>
-                  <div class="reqform__title" data-aos="fade-up">Оставить заявку</div>
-                  <div class="reqform__fields" data-aos="fade-up">
-                    <div class="reqform__col ui-group">
-                      <div class="ui-input" js-input-focus>
-                        <label class="ui-input__float-label" for="rf_name">Представьтесь пожалуйста <span class="required">*</span></label>
-                        <input type="text" name="name" id="rf_name" required>
-                      </div>
-                    </div>
-                    <div class="reqform__col ui-group">
-                      <div class="ui-input" js-input-focus>
-                        <label class="ui-input__float-label" for="rf_email">Напишите ваш e-mail  <span class="required">*</span></label>
-                        <input type="email" name="email" id="rf_email" required>
-                      </div>
-                    </div>
-                    <div class="reqform__col ui-group">
-                      <div class="ui-input" js-input-focus>
-                        <label class="ui-input__float-label" for="rf_phone">Напишите ваш телефон <span class="required">*</span></label>
-                        <input type="tel" name="phone" id="rf_phone" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="reqform__cta" data-aos="fade-up">
-                    <div class="ui-group">
-                      <button class="btn btn-primary btn--c-white" type="submit"><span>Отправить</span></button>
-                    </div>
-                    <div class="reqform__checkbox">
-                      <div class="ui-group">
-                        <div class="ui-checkbox">
-                          <input type="checkbox" checked id="rf_agree" name="agree" required>
-                          <label for="rf_agree"><span>Я согласен на обработку <a href="#" target="_blank">персональных данных</a>, а также с условиями оферты.</span></label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
+              </form>
+              <h2 data-aos="fade-up">Продукция<span>2</span></h2><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Мобильные спутниковые комплексы CHAPK</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую очередь там, где использование наземных.</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Мобильные спутниковые комплексы CHAPK</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую</p></a>
+              <h2 data-aos="fade-up">Услуги<span>4</span></h2><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Поставка оборудования и программного обеспечения</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую очередь там</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Консалтинг в сфере ИТ и телеком</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую очередь там, где использование</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Подключение к спутниковым сетям</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую очередь</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Проектирование и строительство</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую очередь там, где использование</p></a>
+              <h2 data-aos="fade-up">Решения<span>1</span></h2><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-title">Центры мониторинга и управления сетью</p>
+                <p class="search-page__item-info">Спутниковые сети позволяют пользователям получить доступ к услугам связи в первую очередь там</p></a>
+              <h2 data-aos="fade-up">Новости<span>5</span></h2><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-date">13 марта 2019</p>
+                <p class="search-page__item-news">Специалисты Группы компаний приняли участие в «SATCOMRUS 2018: SMART SATELLITE – идеи и инновации».</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-date">13 марта 2019</p>
+                <p class="search-page__item-news">Специалисты ГК "Рэйс" представили новые разработки на форуме "Армия-2018"</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-date">13 марта 2019</p>
+                <p class="search-page__item-news">Race Communications принял участие в межрегиональном совещании в Республике Саха (Якутия).</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-date">13 марта 2019</p>
+                <p class="search-page__item-news">Race Communications принял участие в семинаре «День спутниковых инноваций».</p></a><a class="search-page__item" href="#" data-aos="fade-up">
+                <p class="search-page__item-date">13 марта 2019</p>
+                <p class="search-page__item-news">Специалисты ГК "Рэйс" приняли участие в конференции "Satellite Russia and CIS 2019".</p></a>
             </div>
           </div>
           <!-- SCROLLTOP-->
