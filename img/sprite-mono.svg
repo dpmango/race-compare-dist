@@ -9,13 +9,15 @@
 </symbol><symbol id="ico-mono-arrow-down-big" viewBox="0 0 18 68">
     <path d="M8 1.822a1 1 0 1 1 2 0v64a1 1 0 0 1-2 0v-64z"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M.293 57.114a1 1 0 0 1 1.414 0L9 64.407l7.293-7.292a1 1 0 0 1 1.414 1.414L9 67.236.293 58.529a1 1 0 0 1 0-1.415z"/>
-</symbol><symbol id="ico-mono-arrow-top" viewBox="0 0 14 20">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.028.317l6.731 7.854a1 1 0 0 1-1.518 1.301L6.972 3.326 1.735 9a1 1 0 1 1-1.47-1.357L7.028.317z"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M6 18.322v-16.5h2v16.5a1 1 0 0 1-2 0z"/>
+</symbol><symbol id="ico-mono-arrow-top" viewBox="0 0 14 19">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.028.496l6.731 7.853a1 1 0 0 1-1.518 1.302L6.972 3.504 1.735 9.178a1 1 0 1 1-1.47-1.356L7.028.496z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 7a1 1 0 0 1 1 1v10a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1z"/>
 </symbol><symbol id="ico-mono-btn-arrow-next" viewBox="0 0 20 10">
     <path clip-rule="evenodd" d="M15.1 10L20 5.02l-.02-.019.02-.021L15.1 0 14 1.127 16.802 4H0v2h16.803L14 8.873 15.1 10z"/>
 </symbol><symbol id="ico-mono-btn-arrow-prev" viewBox="0 0 20 10">
     <path clip-rule="evenodd" d="M4.9 0L0 4.98l.02.019L0 5.02 4.9 10 6 8.873 3.198 6H20V4H3.197L6 1.127 4.9 0z"/>
+</symbol><symbol id="ico-mono-btn-arrow-right-2" viewBox="0 0 11 18">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M.293.293a1 1 0 0 1 1.414 0L10.414 9l-8.707 8.707a1 1 0 0 1-1.414-1.414L7.586 9 .293 1.707a1 1 0 0 1 0-1.414z"/>
 </symbol><symbol id="ico-mono-checkmark" viewBox="0 0 10 8">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.891 1.557L4.008 7.88A.35.35 0 0 1 3.741 8a.35.35 0 0 1-.267-.119l-.124-.127-.129-.139-.555-.597L.111 4.25a.428.428 0 0 1 0-.575l.8-.863a.35.35 0 0 1 .267-.12.35.35 0 0 1 .267.12l2.29 2.478L8.554.118A.35.35 0 0 1 8.82 0a.35.35 0 0 1 .268.118l.799.863c.15.169.15.406.004.576z"/>
 </symbol><symbol id="ico-mono-doc-pdf" viewBox="0 0 40 50">
@@ -42,6 +44,9 @@
     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9 18.747c.45.16.926.242 1.405.241a4.238 4.238 0 0 0 3-1.254l1.033-1.045a2.86 2.86 0 0 0-.731-4.557l-2.97-1.528a2.041 2.041 0 0 0-2.27.305l-.348.318c-.347.313-.85.38-1.268.171a5.408 5.408 0 0 1-2.343-2.342 1.115 1.115 0 0 1 .17-1.266l.314-.346a2.001 2.001 0 0 0 .306-2.268L7.67 2.207a2.868 2.868 0 0 0-4.278-.972l-.903.69a4.212 4.212 0 0 0-1.451 4.642A19.316 19.316 0 0 0 12.9 18.747zm4.135-3.347L16 16.444a2.404 2.404 0 0 1-1.7.711c-.268 0-.535-.046-.788-.136A17.48 17.48 0 0 1 2.78 5.997a2.377 2.377 0 0 1 .822-2.616l.902-.688a1.034 1.034 0 0 1 1.537.355l1.527 2.967a.168.168 0 0 1-.026.19l-.321.353c-.83.9-1.01 2.237-.443 3.338a7.24 7.24 0 0 0 3.137 3.134 2.974 2.974 0 0 0 3.331-.44l.359-.329c.047-.042.138-.054.214-.016l2.949 1.517a1.029 1.029 0 0 1 .267 1.638z"/>
 </symbol><symbol id="ico-mono-phone" viewBox="0 0 12 12">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.505 11.333c-.279 0-.556-.047-.818-.14A11.238 11.238 0 0 1 .786 4.107a2.45 2.45 0 0 1 .844-2.702l.525-.4a1.668 1.668 0 0 1 2.49.565l.888 1.727c.223.434.152.96-.178 1.32l-.182.2a.649.649 0 0 0-.1.738c.301.585.778 1.062 1.364 1.362a.66.66 0 0 0 .738-.1l.202-.184a1.188 1.188 0 0 1 1.32-.178l1.729.889a1.664 1.664 0 0 1 .425 2.652l-.601.607a2.465 2.465 0 0 1-1.745.73z"/>
+</symbol><symbol id="ico-mono-scroll-down-with-arrow" viewBox="0 0 48 48">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 24c0 12.703 10.297 23 23 23s23-10.297 23-23S36.703 1 24 1 1 11.297 1 24zm-1 0c0 13.255 10.745 24 24 24s24-10.745 24-24S37.255 0 24 0 0 10.745 0 24z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M32.707 20.293a1 1 0 0 1 0 1.414L24 30.414l-8.707-8.707a1 1 0 0 1 1.414-1.414L24 27.586l7.293-7.293a1 1 0 0 1 1.414 0z"/>
 </symbol><symbol id="ico-mono-scrolltop" viewBox="0 0 12 18">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.028.829l5.731 6.687a1 1 0 0 1-1.518 1.301l-4.269-4.98-4.237 4.591a1 1 0 1 1-1.47-1.356L6.028.829z"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M5 16.083V2.333h2v13.75a1 1 0 1 1-2 0z"/>
